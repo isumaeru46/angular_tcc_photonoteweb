@@ -3,8 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyC6g10FnPtIGzwRcKZlatA6ftyvczidXGw',
+    authDomain: 'tcc-photonote.firebaseapp.com',
+    databaseURL: 'https://tcc-photonote.firebaseio.com',
+    projectId: 'tcc-photonote',
+    storageBucket: 'tcc-photonote.appspot.com',
+    messagingSenderId: '11874657140'
+  }
 };
+
 
 /*
  * In development mode, for easier debugging, you can ignore zone related error
